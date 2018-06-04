@@ -1,0 +1,10 @@
+digraph "CSVReader::csvLineToDoubles"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CSVReader::csvLineToDoubles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CSVReader::csvToNumericVecVec",height=0.2,width=0.4,color="black",URL="$classCSVReader.html#a9dda2d1d6d82b80b6a8b83f820671340",tooltip="Transforms a CSV file into a vector of vectors of double, each vector representing a line in the orig..."];
+}
